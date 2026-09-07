@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu: animated menu that feel Interface.</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="menubar">
+            <div class="menuhidden">
+                <ul class="liststyle">
+                    <li>
+                        <a href="#">Home</a>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </li>
+                    <li>
+                        <a href="#">Components</a>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </li>
+                    <li>
+                        <a href="#">Lab</a>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </li>
+                </ul>
+                <div class="bg">
+                    <img src="./assets/homeimage.jpeg" alt="" class="home">
+                    <img src="./assets/aboutimage.jpeg" alt="" class="About">
+                    <img src="./assets/componentsimage.jpeg" alt="" class="Components">
+                    <img src="./assets/labimage.jpeg" alt="" class="Lab">
+                </div>
+            </div>
+            <div class="menuvisible">
+                <div class="logo">
+                    <img src="./assets/blue_circle_profile.png" alt="">
+                </div>
+                <button type="button" class="btn">
+                    <span class="menu bar">Menu</span>
+                    <span class="close bar">Close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
