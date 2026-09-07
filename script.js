@@ -75,18 +75,18 @@ function openMenu() {
     .to(menuItems, {
         y: 0,
         opacity: 1,
-        duration: 0.5,
+        duration: 0.2,
         stagger: 0.08,
-        ease: "power2.out"
+        ease: "power3.out"
     }, "-=0.05")
 
 
     .to(menuImages, {
         opacity: 1,
         scale: 1,
-        duration: 0.6,
+        duration: 0.15,
         stagger: 0.08,
-        ease: "power2.out"
+        ease: "power3.out"
     }, "-=0.35");
 }
 
@@ -130,13 +130,13 @@ function closeMenu() {
         height: 50,
         duration: 0.5,
         borderRadius: "26px",
-        ease: "power2.inOut"
+        ease: "power3.inOut"
     })
 
     .to(menu, {
         width: 300,
         duration: 0.4,
-        ease: "power2.inOut"
+        ease: "power3.inOut"
     });
 }
 
